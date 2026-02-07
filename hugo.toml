@@ -34,3 +34,5 @@ theme = "hugo-PaperMod"   # 注意大小写匹配仓库名
   [[menu.main]]
     name = "联系我"
     url = "/contact/"
+
+    # 强制 rebuild 2026-02-07
