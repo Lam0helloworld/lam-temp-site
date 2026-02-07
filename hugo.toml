@@ -5,17 +5,21 @@ title = "Lam的多重宇宙"
 [params]
   author = "Lam"
   description = "记录一些输入和输出，以及别的"
+  keywords = "个人, 知识库, 日志"
 
+  # 强制亮色主题
   defaultTheme = "light"
 
-  profileMode:
+  # 首页居中大头像 + 简介
+  [params.profileMode]
     enabled = true
     title = "Lam的多重宇宙"
     subtitle = "知识探索者 / 自学者 / 日常记录者<br>(其实我是一个多维存在体)"
-    imageUrl = "/images/avatar.jpg"
+    imageUrl = "/images/avatar.jpg"  # 你的头像路径（已上传到 images/ 文件夹）
     imageWidth = 200
     imageHeight = 200
 
+  # 去掉社交图标
   socialIcons = []
 
 [menu]
