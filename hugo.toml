@@ -7,16 +7,22 @@ theme = "hugo-PaperMod"   # 注意大小写匹配仓库名
 [params]
   author = "Lam"
   description = "记录一些输入和输出，以及别的"
+  keywords = "个人, 知识库, 日志"
 
-  defaultTheme = "light"   # 强制白色/亮色
+  # 强制亮色主题
+  defaultTheme = "light"
 
-  homeInfoParams:
-    Title = "Lam的多重宇宙"
-    Content = "知识探索者 / 自学者 / 日常记录者<br>(其实我是一个多维存在体)"
+  # 首页居中大头像 + 简介
+  [params.profileMode]
+    enabled = true
+    title = "Lam的多重宇宙"
+    subtitle = "知识探索者 / 自学者 / 日常记录者<br>(其实我是一个多维存在体)"
+    imageUrl = "/images/avatar.jpg"  # 你的头像路径（已上传到 images/ 文件夹）
+    imageWidth = 200
+    imageHeight = 200
 
-  avatarurl = "/images/avatar.jpg"   # 上传后路径
-
-  socialIcons = []   # 去掉社交图标
+  # 去掉社交图标
+  socialIcons = []
 
 [menu]
   [[menu.main]]
@@ -35,4 +41,4 @@ theme = "hugo-PaperMod"   # 注意大小写匹配仓库名
     name = "联系我"
     url = "/contact/"
 
-    # 强制 rebuild 2026-02-07
+    # 编辑
